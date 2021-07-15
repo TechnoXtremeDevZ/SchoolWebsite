@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#SchoolWebsite">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Rondo Elementary</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="SchoolWebsite">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Campus Life</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#contact_us">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="container">
+        <div class="announcement">
+        <marquee id="banner" onmouseover="this.stop();" onmousestart="this.start();"
+                 class="bg-primary">
+            Our first ever Synergy Rally takes place this Wednesday, students! 
+            Be prepared!! 
+        </marquee>
+                 </div>
+        <img id="school-photo" class="img-responsive" 
+             src="https://p18cdn4static.sharpschool.com/UserFiles/Servers/Server_25708130/Banner/305448/76d4c37f-9bae-4bed-a876-06030aa2e9a7.jpeg" />
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <br />
+            <section id="contact_us">
+                <div class="page-header">
+                    <p id="contactwriting">
+                        Contact Us
+                    </p>
+                </div>
+                <hr />
+                <div id="school-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.5871053284295!2d-117.61087504950746!3d33.951746280538416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dccbc5fddd7075%3A0x8ae835501733c43c!2sPhilistine%20Rondo%20School%20Of%20Discovery!5e0!3m2!1sen!2sus!4v1626224534551!5m2!1sen!2sus" width="600" height="450" style="border:0;" 
+                        allowfullscreen="" loading="lazy"></iframe>
+                    <div id="profile">
+                        <img id="pfp" src="https://th.bing.com/th/id/R.f04335266a038e9a8f87e4b28d69bef1?rik=%2bXklu%2b%2bJwmThQg&pid=ImgRaw"
+                            class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4" />
+                        <h3>
+                            Principal Name:
+                        </h3>
+                        <h4>
+                            Dr. Trevor Dietrich
+                        </h4>
+                        <div class="details-profile">
+                            <a href="mailto:tdietrich@cnusd.k12.ca.us">
+                                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;tdietrich@cnusd.k12.ca.us</h5>
+                            </a>
+                            <a href="#">
+                                <h5><i class="fa fa-instagram">&nbsp;&nbsp;Rondo Raptors</i></h5>
+                            </a>
+                            <a href="#">
+                                <h5><i class="fa fa-phone-square">&nbsp;&nbsp;+1 (951) 736-8251</i></h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
