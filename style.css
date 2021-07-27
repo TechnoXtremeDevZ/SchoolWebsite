@@ -1,4 +1,4 @@
-﻿body {
+body {
     text-align: center;
 }
 
@@ -17,4 +17,12 @@
 }
 #details-profile {
     background-color:#00ff21;
+}
+#library_photo {
+    width:200px;
+    height:200px;
+}
+#sfp {
+    width:400px;
+    height:100px;
 }
